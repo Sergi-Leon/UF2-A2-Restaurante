@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <platos tipo="Pizza">
+        <nombre> Pizza de atún </nombre>
+        <precio> 8,75€ </precio>
+        <descripcion> Pizza de atún con jamón y queso </descripcion>
+        <calorias> (362Kcal) </calorias>
+        <caracteristicas>
+            <item></item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Pizza">
+        <nombre> Pizza vegetal </nombre>
+        <precio> 8,75€ </precio>
+        <descripcion> Pizza vegetal </descripcion>
+        <calorias> (790Kcal) </calorias>
+        <caracteristicas>
+            <item>Vegano</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Pizza">
+        <nombre> Pizza de atún </nombre>
+        <precio> 8,75€ </precio>
+        <descripcion> Pizza de atún con jamón y queso </descripcion>
+        <calorias> (362Kcal) </calorias>
+        <caracteristicas>
+            <item></item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Pizza">
+        <nombre> Pizza vegetal </nombre>
+        <precio> 8,75€ </precio>
+        <descripcion> Pizza vegetal </descripcion>
+        <calorias> (790Kcal) </calorias>
+        <caracteristicas>
+            <item>Vegano</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Pizza">
+        <nombre> Pizza de atún </nombre>
+        <precio> 8,75€ </precio>
+        <descripcion> Pizza de atún con jamón y queso </descripcion>
+        <calorias> (362Kcal) </calorias>
+        <caracteristicas>
+            <item></item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Paella">
+        <nombre> Paella marinera </nombre>
+        <precio> 13,75€ </precio>
+        <descripcion> Paella con pescado, moluscos y crustaceos </descripcion>
+        <calorias> (5Kcal) </calorias>
+        <caracteristicas>
+            <item>Pescado</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Paella">
+        <nombre> Arroz con Sepia y Almejas </nombre>
+        <precio> 13,75€ </precio>
+        <descripcion> Paella con arroz, sepia y almejas </descripcion>
+        <calorias> (238Kcal) </calorias>
+        <caracteristicas>
+            <item></item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Paella">
+        <nombre> Paella marinera </nombre>
+        <precio> 13,75€ </precio>
+        <descripcion> Paella con pescado, moluscos y crustaceos </descripcion>
+        <calorias> (5Kcal) </calorias>
+        <caracteristicas>
+            <item>Pescado</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Paella">
+        <nombre> Arroz con Sepia y Almejas </nombre>
+        <precio> 13,75€ </precio>
+        <descripcion> Paella con arroz, sepia y almejas </descripcion>
+        <calorias> (238Kcal) </calorias>
+        <caracteristicas>
+            <item></item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Paella">
+        <nombre> Paella marinera </nombre>
+        <precio> 13,75€ </precio>
+        <descripcion> Paella con pescado, moluscos y crustaceos </descripcion>
+        <calorias> (5Kcal) </calorias>
+        <caracteristicas>
+            <item >Pescado</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Carne">
+        <nombre> Entrecot de ternera </nombre>
+        <precio> 14,50€ </precio>
+        <descripcion> 1 entrecot de ternera al punto </descripcion>
+        <calorias> (59Kcal) </calorias>
+        <caracteristicas>
+            <item>Carne</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Carne">
+        <nombre> Costillas de cordero </nombre>
+        <precio> 14,50€ </precio>
+        <descripcion> 6 costillas de cordero </descripcion>
+        <calorias> (68Kcal) </calorias>
+        <caracteristicas>
+            <item>Carne</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Carne">
+        <nombre> Chuletón de ternera </nombre>
+        <precio> 17,50€ </precio>
+        <descripcion> 2 chuletónes de ternera al punto </descripcion>
+        <calorias> (27Kcal) </calorias>
+        <caracteristicas>
+            <item>Carne</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Carne">
+        <nombre> Pechuga de pollo a la plancha </nombre>
+        <precio> 6,95€ </precio>
+        <descripcion> 3 pechugas de pollo a la plancha </descripcion>
+        <calorias> (28Kcal) </calorias>
+        <caracteristicas>
+            <item>Carne</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Carne">
+        <nombre> Churrasco a la brasa </nombre>
+        <precio> 11,50€ </precio>
+        <descripcion> 2 churrascos a la brasa al punto </descripcion>
+        <calorias> (1Kcal) </calorias>
+        <caracteristicas>
+            <item>Carne</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Pescado">
+        <nombre> Merluza a la plancha </nombre>
+        <precio> 13,75€ </precio>
+        <descripcion> Merluza a la plancha </descripcion>
+        <calorias> (8Kcal) </calorias>
+        <caracteristicas>
+            <item>Pescado</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Pescado">
+        <nombre> Salmón </nombre>
+        <precio> 18,95€ </precio>
+        <descripcion> Salmón con crema de guisantes y espárragos a la brasa </descripcion>
+        <calorias> (8Kcal) </calorias>
+        <caracteristicas>
+            <item>Pescado</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Pescado">
+        <nombre> Merluza a la plancha </nombre>
+        <precio> 13,75€ </precio>
+        <descripcion> Merluza a la plancha </descripcion>
+        <calorias> (8Kcal) </calorias>
+        <caracteristicas>
+            <item>Pescado</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Pescado">
+        <nombre> Salmón </nombre>
+        <precio> 18,95€ </precio>
+        <descripcion> Salmón con crema de guisantes y espárragos a la brasa </descripcion>
+        <calorias> (8Kcal) </calorias>
+        <caracteristicas>
+            <item>Pescado</item>
+        </caracteristicas>
+    </platos>
+    <platos tipo="Pescado">
+        <nombre> Merluza a la plancha </nombre>
+        <precio> 13,75€ </precio>
+        <descripcion> Merluza a la plancha </descripcion>
+        <calorias> (8Kcal) </calorias>
+        <caracteristicas>
+            <item>Pescado</item>
+        </caracteristicas>
+    </platos>
+</menu>
