@@ -93,7 +93,7 @@
     <platos tipo="Carne">
         <nombre> 11. Entrecot de ternera </nombre>
         <precio> 14,50€ </precio>
-        <descripcion> 1 entrecot de ternera al punto </descripcion>
+        <descripcion> Un entrecot de ternera al punto </descripcion>
         <calorias> (59Kcal) </calorias>
         <caracteristicas>
             <item>Carne</item>
@@ -102,7 +102,7 @@
     <platos tipo="Carne">
         <nombre> 12. Costillas de cordero </nombre>
         <precio> 14,50€ </precio>
-        <descripcion> 6 costillas de cordero </descripcion>
+        <descripcion> Seis costillas de cordero </descripcion>
         <calorias> (68Kcal) </calorias>
         <caracteristicas>
             <item>Carne</item>
@@ -111,7 +111,7 @@
     <platos tipo="Carne">
         <nombre> 13. Chuletón de ternera </nombre>
         <precio> 17,50€ </precio>
-        <descripcion> 2 chuletónes de ternera al punto </descripcion>
+        <descripcion> Dos chuletónes de ternera al punto </descripcion>
         <calorias> (27Kcal) </calorias>
         <caracteristicas>
             <item>Carne</item>
@@ -120,7 +120,7 @@
     <platos tipo="Carne">
         <nombre> 14. Pechuga de pollo a la plancha </nombre>
         <precio> 6,95€ </precio>
-        <descripcion> 3 pechugas de pollo a la plancha </descripcion>
+        <descripcion> Tres pechugas de pollo a la plancha </descripcion>
         <calorias> (28Kcal) </calorias>
         <caracteristicas>
             <item>Carne</item>
@@ -129,7 +129,7 @@
     <platos tipo="Carne">
         <nombre> 15. Churrasco a la brasa </nombre>
         <precio> 11,50€ </precio>
-        <descripcion> 2 churrascos a la brasa al punto </descripcion>
+        <descripcion> Dos churrascos a la brasa al punto </descripcion>
         <calorias> (1Kcal) </calorias>
         <caracteristicas>
             <item>Carne</item>

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -9,7 +15,6 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: sans-serif;
 }
 
 .centrarTexto {
@@ -24,44 +29,59 @@ body {
     width: 50%;
     float: left;
     background-color: rgba(255, 255, 255, 0.4);
+    border: 3px solid black;
+    height: 440px;
 }
 
 .arriba-dere {
     width: 50%;
     float: right;
     background-color: rgba(255, 0, 0, 0.3);
+    border: 3px solid black;
+    border-left: none;
+    height: 440px;
 }
 
 .abajo-izq {
     width: 50%;
     float: left;
     background-color: rgba(255, 0, 0, 0.3);
+    border: 3px solid black;
+    border-top: none;
+    height: 440px;
 }
 
 .abajo-dere {
     width: 50%;
     float: right;
     background-color: rgba(255, 255, 255, 0.4);
+    border: 3px solid black;
+    border-left: none;
+    border-top: none;
+    height: 440px;
 }
 
 .nombrecomida {
     display: inline;
+    margin-left: 30%;
+}
+
+.descripcion {
+    margin-left: 30%;
 }
 
 .icono {
-    width: 20px;
-}
-
-.relleno {
-    height: 6px;
+    width: 15px;
 }
 
 @media (max-width: 1000px) {
     .arriba-izq {
         width: 100%;
+        border-bottom: none;
     }
     .arriba-dere {
         width: 100%;
+        border-left: 3px solid black;
     }
     .abajo-izq {
         width: 100%;
@@ -70,5 +90,6 @@ body {
     .abajo-dere {
         width: 100%;
         background-color: rgba(255, 0, 0, 0.3);
+        border-left: 3px solid black;
     }
 }

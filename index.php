@@ -19,8 +19,8 @@
     <h1 class="centrarTexto">Restaurante ASIX</h1>
     <div class="row">
         <!-- Caja superior izquierda del XML de las pizzas -->
-        <div class="arriba-izq centrarTexto">
-            <h2>PIZZA</h2>
+        <div class="arriba-izq">
+            <h2 class="centrarTexto"><b>PIZZA</b></h2>
             <?php
             foreach ($menu -> platos as $platos ) {
                 if ($platos['tipo']) {
@@ -38,7 +38,7 @@
                                     echo'<img class="icono" src= "./icons/pescado.svg">';
                                 }
                             } 
-                            echo "<p>".$platos->descripcion.$platos->calorias."</p>";
+                            echo '<p class="descripcion">'.$platos->descripcion.$platos->calorias."</p>";
                             break;
                         /* default:
                         echo 'Lo escribiste mal'; */
@@ -48,8 +48,8 @@
             ?>
         </div>
         <!-- Caja superior derecha del XML de las paellas -->
-        <div class="arriba-dere centrarTexto">
-            <h2>PAELLA</h2>
+        <div class="arriba-dere">
+            <h2 class="centrarTexto"><b>PAELLA</b></h2>
             <?php
             foreach ($menu -> platos as $platos ) {
                 if ($platos['tipo']) {
@@ -67,7 +67,7 @@
                                     echo'<img class="icono" src= "./icons/pescado.svg">';
                                 }
                             } 
-                            echo "<p>".$platos->descripcion.$platos->calorias."</p>";
+                            echo '<p class="descripcion">'.$platos->descripcion.$platos->calorias."</p>";
                             break;
                         /* default:
                         echo 'Lo escribiste mal'; */
@@ -75,15 +75,12 @@
                 }
             }
             ?>
-            <div class="relleno">
-
-            </div>
         </div>
     </div>
     <div class="row">
         <!-- Caja inferior izquierda del XML de las carnes -->
-        <div class="abajo-izq centrarTexto">
-            <h2>CARNE</h2>
+        <div class="abajo-izq">
+            <h2 class="centrarTexto"><b>CARNE</b></h2>
             <?php
             foreach ($menu -> platos as $platos ) {
                 if ($platos['tipo']) {
@@ -101,7 +98,7 @@
                                     echo'<img class="icono" src= "./icons/pescado.svg">';
                                 }
                             }
-                            echo "<p>".$platos->descripcion.$platos->calorias."</p>";
+                            echo '<p class="descripcion">'.$platos->descripcion.$platos->calorias."</p>";
                             break;
                             break;
                         /* default:
@@ -111,8 +108,8 @@
             }
             ?>
         </div>
-        <div class="abajo-dere centrarTexto">
-            <h2>PESCADO</h2>
+        <div class="abajo-dere">
+            <h2 class="centrarTexto"><b>PESCADO</b></h2>
             <?php
             foreach ($menu -> platos as $platos ) {
                 if ($platos['tipo']) {
@@ -130,7 +127,7 @@
                                     echo'<img class="icono" src= "./icons/pescado.svg">';
                                 }
                             }
-                            echo "<p>".$platos->descripcion.$platos->calorias."</p>";
+                            echo '<p class="descripcion">'.$platos->descripcion.$platos->calorias."</p>";
                             break;
                         /* default:
                         echo 'Lo escribiste mal'; */
@@ -138,10 +135,7 @@
                 }
             }
             ?>
-            <div class="relleno">
-
-            </div>
         </div>
-    </div>   
+    </div>
 </body>
 </html>
