@@ -21,27 +21,27 @@ body {
 }
 
 .arriba-izq {
-    background-color: white;
     width: 50%;
     float: left;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .arriba-dere {
     width: 50%;
     float: right;
-    background-color: aqua;
+    background-color: rgba(255, 0, 0, 0.3);
 }
 
 .abajo-izq {
     width: 50%;
     float: left;
-    background-color: lightgreen;
+    background-color: rgba(255, 0, 0, 0.3);
 }
 
 .abajo-dere {
     width: 50%;
     float: right;
-    background-color: pink;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .nombrecomida {
@@ -52,6 +52,23 @@ body {
     width: 20px;
 }
 
-.naruto {
+.relleno {
     height: 6px;
+}
+
+@media (max-width: 1000px) {
+    .arriba-izq {
+        width: 100%;
+    }
+    .arriba-dere {
+        width: 100%;
+    }
+    .abajo-izq {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+    .abajo-dere {
+        width: 100%;
+        background-color: rgba(255, 0, 0, 0.3);
+    }
 }

@@ -75,7 +75,7 @@
                 }
             }
             ?>
-            <div class="naruto">
+            <div class="relleno">
 
             </div>
         </div>
@@ -138,7 +138,7 @@
                 }
             }
             ?>
-            <div class="naruto">
+            <div class="relleno">
 
             </div>
         </div>
