@@ -29,13 +29,13 @@
                             echo '<p class="nombrecomida">'.$platos -> nombre.' '.$platos -> precio.'</p>';
                             foreach($platos->caracteristicas->item as $item){
                                 if($item=="Vegano"){
-                                    echo'<img class="icono" src= "./icons/vegano.svg">';
+                                    echo'<img class="icono" src= "./iconos/vegano.svg">';
                                 }
                                 if($item=="Carne"){
-                                    echo'<img class="icono" src= "./icons/carne.svg">';
+                                    echo'<img class="icono" src= "./iconos/carne.svg">';
                                 }
                                 if($item=="Pescado"){
-                                    echo'<img class="icono" src= "./icons/pescado.svg">';
+                                    echo'<img class="icono" src= "./iconos/pescado.svg">';
                                 }
                             } 
                             echo '<p class="descripcion">'.$platos->descripcion.$platos->calorias."</p>";
@@ -58,13 +58,13 @@
                             echo '<p class="nombrecomida">'.$platos -> nombre.' '.$platos -> precio.'</p>';
                             foreach($platos->caracteristicas->item as $item){
                                 if($item=="Vegano"){
-                                    echo'<img class="icono" src= "./icons/vegano.svg">';
+                                    echo'<img class="icono" src= "./iconos/vegano.svg">';
                                 }
                                 if($item=="Carne"){
-                                    echo'<img class="icono" src= "./icons/carne.svg">';
+                                    echo'<img class="icono" src= "./iconos/carne.svg">';
                                 }
                                 if($item=="Pescado"){
-                                    echo'<img class="icono" src= "./icons/pescado.svg">';
+                                    echo'<img class="icono" src= "./iconos/pescado.svg">';
                                 }
                             } 
                             echo '<p class="descripcion">'.$platos->descripcion.$platos->calorias."</p>";
@@ -89,13 +89,13 @@
                             echo '<p class="nombrecomida">'.$platos -> nombre.' '.$platos -> precio.'</p>';
                             foreach($platos->caracteristicas->item as $item){
                                 if($item=="Vegano"){
-                                    echo'<img class="icono" src= "./icons/vegano.svg">';
+                                    echo'<img class="icono" src= "./iconos/vegano.svg">';
                                 }
                                 if($item=="Carne"){
-                                    echo'<img class="icono" src= "./icons/carne.svg">';
+                                    echo'<img class="icono" src= "./iconos/carne.svg">';
                                 }
                                 if($item=="Pescado"){
-                                    echo'<img class="icono" src= "./icons/pescado.svg">';
+                                    echo'<img class="icono" src= "./iconos/pescado.svg">';
                                 }
                             }
                             echo '<p class="descripcion">'.$platos->descripcion.$platos->calorias."</p>";
@@ -118,13 +118,13 @@
                             echo '<p class="nombrecomida">'.$platos -> nombre.' '.$platos -> precio.'</p>';
                             foreach($platos->caracteristicas->item as $item){
                                 if($item=="Vegano"){
-                                    echo'<img class="icono" src= "./icons/vegano.svg">';
+                                    echo'<img class="icono" src= "./iconos/vegano.svg">';
                                 }
                                 if($item=="Carne"){
-                                    echo'<img class="icono" src= "./icons/carne.svg">';
+                                    echo'<img class="icono" src= "./iconos/carne.svg">';
                                 }
                                 if($item=="Pescado"){
-                                    echo'<img class="icono" src= "./icons/pescado.svg">';
+                                    echo'<img class="icono" src= "./iconos/pescado.svg">';
                                 }
                             }
                             echo '<p class="descripcion">'.$platos->descripcion.$platos->calorias."</p>";
